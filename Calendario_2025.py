@@ -1,7 +1,8 @@
+#Se instala bibliotecas:  pandas, os , xlsxwriter
 import calendar
 import pandas as pd
 import os
-
+#aqui se debe especificar la ruta deseada de acuerdo a su pc"
 ruta_deseada = "C:/Users/Nicolas Cruz/Documents/Marketing/mrt/data"
 os.makedirs(ruta_deseada, exist_ok=True)
 # Crear un diccionario de DataFrames con formato de calendario
